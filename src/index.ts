@@ -132,6 +132,19 @@ const serviceProviders: SpfServiceType[] = [
         name: "Zendesk",
         rules: ["mail.zendesk.com"],
     },
+    {
+        name: "JMJping",
+        rules: ["guard0.jmjping.fi","guard1.jmjping.fi"],
+    },
+    {
+        name: "SendPulse",
+        rules: ["mxsmtp.sendpulse.com"]
+    },
+    {
+        name: "ServiceNow",
+        rules: ["b.spf.service-now.com", "c.spf.service-now.com", "c.spf.service-now.com"]
+
+    }
 ];
 
 function matchServiceProvider(service: SpfServiceType, value: string): boolean {
