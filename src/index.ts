@@ -134,17 +134,16 @@ const serviceProviders: SpfServiceType[] = [
     },
     {
         name: "JMJping",
-        rules: ["guard0.jmjping.fi","guard1.jmjping.fi"],
+        rules: ["guard0.jmjping.fi", "guard1.jmjping.fi"],
     },
     {
         name: "SendPulse",
-        rules: ["mxsmtp.sendpulse.com"]
+        rules: ["mxsmtp.sendpulse.com"],
     },
     {
         name: "ServiceNow",
-        rules: ["b.spf.service-now.com", "c.spf.service-now.com", "c.spf.service-now.com"]
-
-    }
+        rules: ["b.spf.service-now.com", "c.spf.service-now.com", "c.spf.service-now.com"],
+    },
 ];
 
 function matchServiceProvider(service: SpfServiceType, value: string): boolean {
