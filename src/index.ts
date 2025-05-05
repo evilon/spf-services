@@ -143,6 +143,10 @@ const serviceProviders: SpfServiceType[] = [
     {
         name: "ServiceNow",
         rules: ["b.spf.service-now.com", "c.spf.service-now.com", "c.spf.service-now.com"],
+    },    
+    {
+        name: "Atlassian",
+        rules: ["_spf.atlassian.net"],
     },
 ];
 
